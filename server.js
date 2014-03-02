@@ -86,7 +86,7 @@ http.createServer(function (req, res) {
       postData += chunk;
     });
 
-    // When all the data is read, the request will trigger and `end` event. We
+    // When all the data is read, the request will trigger an `end` event. We
     // set up a callback for this event that will take all the data we read and
     // send it back in the response.
     req.on('end', function() {
