@@ -10,12 +10,9 @@ probably need to create a Github account to use the app because I can't find any
 associated with your account. You should be able to use the Git shell that the app installs though. After you make an
 account, I'll add you to the organization, but for now just open the shell and then use the command `cd` to change into
 your Documents folder and run the command `git clone https://github.com/epiclulz/request-stuff.git`. That should create
-a folder called request-stuff and download the code into it. After that, just run `cd request-stuff` and then the command
-`npm install`, which will download a Javascript library I used in the code.
+a folder called `request-stuff` and download the code into it. After that, just run `cd request-stuff` and then the command `npm install`, which will download a Javascript library I used in the code.
 
-When that's done, run `npm install docco` and then `docco server.js client.js`. This will create some documentation out
-of the comments in the Javascript code and put them in the `docs` folder. Now just open up your Documents folder and click
-through until you get to the request-stuff/docs folder and open up `server.html` and `client.html` in your browser.
+When that's done, run `npm install docco` and then `.\node_modules\.bin\docco server.js client.js`. This will create some documentation out of the comments in the Javascript code and put them in the `docs` folder. Now just open up your Documents folder and click through until you get to the request-stuff/docs folder and open up `server.html` and `client.html` in your browser.
 
 ## Running the Code
 
